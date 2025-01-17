@@ -3,11 +3,16 @@
   background: papayawhip;
   /* my additions below */
   display: flex; 
-  justify-content: center; 
+ /* The commented-out section below contains part of my original solution:
+  justify-content: center; */
+  justify-content: space-between; 
   align-items: center; 
   padding: 9px; 
 }
 
+/* The commented-out section below contains part of my original solution */
+
+/*
 .left-links {
   margin-right: auto; 
 }
@@ -15,8 +20,7 @@
 .right-links {
   margin-left: auto; 
 }
-
-/* my additions above */
+*/
 
 .logo {
   font-size: 48px;
