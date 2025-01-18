@@ -1,5 +1,7 @@
 body {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Courier New', Courier, monospace; 
+  /* My additions are below */
+  text-align: center; 
 }
 
 img {
@@ -10,7 +12,20 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  /* My additions are below */
+  margin-bottom: 32px; 
 }
+
+.items {
+  display: flex; 
+  justify-content: center; 
+  gap: 52px; 
+}
+
+.itembox {
+  max-width: 200px; 
+}
+/* My additions are above */
 
 /* do not edit this footer */
 .footer {
